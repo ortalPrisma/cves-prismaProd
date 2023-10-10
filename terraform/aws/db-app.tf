@@ -424,6 +424,9 @@ EOF
     }, {
     keyyy1 = "valueeeee"
   })
+  metadata_options {
+    http_tokens = "required"
+  }
 }
 
 output "db_app_public_dns" {
